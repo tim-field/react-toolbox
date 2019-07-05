@@ -6,7 +6,7 @@ import {
   Simulate
 } from 'react-dom/test-utils';
 import sinon from 'sinon';
-import theme from '../theme.scss';
+import theme from '../theme.module.scss';
 import Dropdown from '../Dropdown';
 
 

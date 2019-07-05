@@ -1,5 +1,5 @@
 import expect from 'expect';
-import theme from '../theme.scss';
+import theme from '../theme.module.scss';
 import { DatePickerDialog } from '../DatePicker';
 import utils from '../../utils/testing';
 

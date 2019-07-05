@@ -4,7 +4,7 @@ import { List, ListItem } from 'react-toolbox';
 import classnames from 'classnames';
 import Carbon from '../../../Carbon';
 import components from '../modules/components';
-import style from './navigation.scss';
+import style from './navigation.module.scss';
 
 const MainNavigation = ({ className }, { router }) => {
   const drawerItems = Object.keys(components).map((key) => {
